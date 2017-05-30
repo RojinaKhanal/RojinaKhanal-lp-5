@@ -1,0 +1,19 @@
+Q1.
+
+public static void main(String[] args) {
+int const ADJACENT_NUMBERS= 13;
+long maxVal = 0;
+long currentVal;
+
+for(int i = 0; i < list.size() - ADJ_NUMBERS; i++){
+    currentVal = list.get(i);
+    for(int j = 1; j < ADJ_NUMBERS; j++){
+        currentVal *= list.get(i+j);
+    }
+    if(maxVal < currentVal){
+        maxVal = currentVal;
+    }
+}
+}
+
+
